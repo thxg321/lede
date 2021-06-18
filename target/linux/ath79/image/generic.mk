@@ -1893,7 +1893,7 @@ endef
 TARGET_DEVICES += pisen_wmb001n
 
 define Device/pisen_wmm003n
-  $(Device/tplink-8mlzma)
+  $(Device/tplink-16mlzma)
   SOC := ar9331
   DEVICE_VENDOR := PISEN
   DEVICE_MODEL := Cloud Easy Power (WMM003N)
